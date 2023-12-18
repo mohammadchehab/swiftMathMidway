@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		628D31CC2B29CCB40067CA73 /* midwaymathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628D31CB2B29CCB40067CA73 /* midwaymathApp.swift */; };
+		628D31CE2B29CCB40067CA73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628D31CD2B29CCB40067CA73 /* ContentView.swift */; };
+		628D31D02B29CCB60067CA73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628D31CF2B29CCB60067CA73 /* Assets.xcassets */; };
+		628D31D32B29CCB60067CA73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628D31D22B29CCB60067CA73 /* Preview Assets.xcassets */; };
+		628D31DD2B29CCB60067CA73 /* midwaymathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628D31DC2B29CCB60067CA73 /* midwaymathTests.swift */; };
+		628D31E72B29CCB60067CA73 /* midwaymathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628D31E62B29CCB60067CA73 /* midwaymathUITests.swift */; };
+		628D31E92B29CCB60067CA73 /* midwaymathUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628D31E82B29CCB60067CA73 /* midwaymathUITestsLaunchTests.swift */; };
+		628D31F92B2A0DCB0067CA73 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628D31F82B2A0DCB0067CA73 /* Slider.swift */; };
+		628D31FC2B2A188E0067CA73 /* SlidingRuler in Frameworks */ = {isa = PBXBuildFile; productRef = 628D31FB2B2A188E0067CA73 /* SlidingRuler */; };
+		628D31FE2B2B19E60067CA73 /* NumericKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628D31FD2B2B19E60067CA73 /* NumericKeyboard.swift */; };
+		628D32002B2C26B10067CA73 /* ControlButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628D31FF2B2C26B10067CA73 /* ControlButtonsView.swift */; };
+		628D32022B2C27BF0067CA73 /* SliderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628D32012B2C27BF0067CA73 /* SliderModel.swift */; };
+		628D32042B2C690E0067CA73 /* NumericKeyboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628D32032B2C690E0067CA73 /* NumericKeyboardViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		628D31D92B29CCB60067CA73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 628D31C02B29CCB40067CA73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 628D31C72B29CCB40067CA73;
+			remoteInfo = midwaymath;
+		};
+		628D31E32B29CCB60067CA73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 628D31C02B29CCB40067CA73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 628D31C72B29CCB40067CA73;
+			remoteInfo = midwaymath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		628D31C82B29CCB40067CA73 /* midwaymath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = midwaymath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		628D31CB2B29CCB40067CA73 /* midwaymathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midwaymathApp.swift; sourceTree = "<group>"; };
+		628D31CD2B29CCB40067CA73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		628D31CF2B29CCB60067CA73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		628D31D22B29CCB60067CA73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		628D31D82B29CCB60067CA73 /* midwaymathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = midwaymathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		628D31DC2B29CCB60067CA73 /* midwaymathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midwaymathTests.swift; sourceTree = "<group>"; };
+		628D31E22B29CCB60067CA73 /* midwaymathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = midwaymathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		628D31E62B29CCB60067CA73 /* midwaymathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midwaymathUITests.swift; sourceTree = "<group>"; };
+		628D31E82B29CCB60067CA73 /* midwaymathUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midwaymathUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		628D31F82B2A0DCB0067CA73 /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		628D31FD2B2B19E60067CA73 /* NumericKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericKeyboard.swift; sourceTree = "<group>"; };
+		628D31FF2B2C26B10067CA73 /* ControlButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlButtonsView.swift; sourceTree = "<group>"; };
+		628D32012B2C27BF0067CA73 /* SliderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderModel.swift; sourceTree = "<group>"; };
+		628D32032B2C690E0067CA73 /* NumericKeyboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericKeyboardViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		628D31C52B29CCB40067CA73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628D31FC2B2A188E0067CA73 /* SlidingRuler in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628D31D52B29CCB60067CA73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628D31DF2B29CCB60067CA73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		628D31BF2B29CCB40067CA73 = {
+			isa = PBXGroup;
+			children = (
+				628D31CA2B29CCB40067CA73 /* midwaymath */,
+				628D31DB2B29CCB60067CA73 /* midwaymathTests */,
+				628D31E52B29CCB60067CA73 /* midwaymathUITests */,
+				628D31C92B29CCB40067CA73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		628D31C92B29CCB40067CA73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				628D31C82B29CCB40067CA73 /* midwaymath.app */,
+				628D31D82B29CCB60067CA73 /* midwaymathTests.xctest */,
+				628D31E22B29CCB60067CA73 /* midwaymathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		628D31CA2B29CCB40067CA73 /* midwaymath */ = {
+			isa = PBXGroup;
+			children = (
+				628D31CB2B29CCB40067CA73 /* midwaymathApp.swift */,
+				628D31CD2B29CCB40067CA73 /* ContentView.swift */,
+				628D31F82B2A0DCB0067CA73 /* Slider.swift */,
+				628D31CF2B29CCB60067CA73 /* Assets.xcassets */,
+				628D31D12B29CCB60067CA73 /* Preview Content */,
+				628D31FD2B2B19E60067CA73 /* NumericKeyboard.swift */,
+				628D31FF2B2C26B10067CA73 /* ControlButtonsView.swift */,
+				628D32012B2C27BF0067CA73 /* SliderModel.swift */,
+				628D32032B2C690E0067CA73 /* NumericKeyboardViewModel.swift */,
+			);
+			path = midwaymath;
+			sourceTree = "<group>";
+		};
+		628D31D12B29CCB60067CA73 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				628D31D22B29CCB60067CA73 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		628D31DB2B29CCB60067CA73 /* midwaymathTests */ = {
+			isa = PBXGroup;
+			children = (
+				628D31DC2B29CCB60067CA73 /* midwaymathTests.swift */,
+			);
+			path = midwaymathTests;
+			sourceTree = "<group>";
+		};
+		628D31E52B29CCB60067CA73 /* midwaymathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				628D31E62B29CCB60067CA73 /* midwaymathUITests.swift */,
+				628D31E82B29CCB60067CA73 /* midwaymathUITestsLaunchTests.swift */,
+			);
+			path = midwaymathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		628D31C72B29CCB40067CA73 /* midwaymath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628D31EC2B29CCB60067CA73 /* Build configuration list for PBXNativeTarget "midwaymath" */;
+			buildPhases = (
+				628D31C42B29CCB40067CA73 /* Sources */,
+				628D31C52B29CCB40067CA73 /* Frameworks */,
+				628D31C62B29CCB40067CA73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = midwaymath;
+			packageProductDependencies = (
+				628D31FB2B2A188E0067CA73 /* SlidingRuler */,
+			);
+			productName = midwaymath;
+			productReference = 628D31C82B29CCB40067CA73 /* midwaymath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		628D31D72B29CCB60067CA73 /* midwaymathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628D31EF2B29CCB60067CA73 /* Build configuration list for PBXNativeTarget "midwaymathTests" */;
+			buildPhases = (
+				628D31D42B29CCB60067CA73 /* Sources */,
+				628D31D52B29CCB60067CA73 /* Frameworks */,
+				628D31D62B29CCB60067CA73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				628D31DA2B29CCB60067CA73 /* PBXTargetDependency */,
+			);
+			name = midwaymathTests;
+			productName = midwaymathTests;
+			productReference = 628D31D82B29CCB60067CA73 /* midwaymathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		628D31E12B29CCB60067CA73 /* midwaymathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628D31F22B29CCB60067CA73 /* Build configuration list for PBXNativeTarget "midwaymathUITests" */;
+			buildPhases = (
+				628D31DE2B29CCB60067CA73 /* Sources */,
+				628D31DF2B29CCB60067CA73 /* Frameworks */,
+				628D31E02B29CCB60067CA73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				628D31E42B29CCB60067CA73 /* PBXTargetDependency */,
+			);
+			name = midwaymathUITests;
+			productName = midwaymathUITests;
+			productReference = 628D31E22B29CCB60067CA73 /* midwaymathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		628D31C02B29CCB40067CA73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					628D31C72B29CCB40067CA73 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					628D31D72B29CCB60067CA73 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 628D31C72B29CCB40067CA73;
+					};
+					628D31E12B29CCB60067CA73 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 628D31C72B29CCB40067CA73;
+					};
+				};
+			};
+			buildConfigurationList = 628D31C32B29CCB40067CA73 /* Build configuration list for PBXProject "midwaymath" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 628D31BF2B29CCB40067CA73;
+			packageReferences = (
+				628D31FA2B2A188D0067CA73 /* XCRemoteSwiftPackageReference "SlidingRuler" */,
+			);
+			productRefGroup = 628D31C92B29CCB40067CA73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				628D31C72B29CCB40067CA73 /* midwaymath */,
+				628D31D72B29CCB60067CA73 /* midwaymathTests */,
+				628D31E12B29CCB60067CA73 /* midwaymathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		628D31C62B29CCB40067CA73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628D31D32B29CCB60067CA73 /* Preview Assets.xcassets in Resources */,
+				628D31D02B29CCB60067CA73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628D31D62B29CCB60067CA73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628D31E02B29CCB60067CA73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		628D31C42B29CCB40067CA73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628D31FE2B2B19E60067CA73 /* NumericKeyboard.swift in Sources */,
+				628D32042B2C690E0067CA73 /* NumericKeyboardViewModel.swift in Sources */,
+				628D32002B2C26B10067CA73 /* ControlButtonsView.swift in Sources */,
+				628D31CE2B29CCB40067CA73 /* ContentView.swift in Sources */,
+				628D31F92B2A0DCB0067CA73 /* Slider.swift in Sources */,
+				628D31CC2B29CCB40067CA73 /* midwaymathApp.swift in Sources */,
+				628D32022B2C27BF0067CA73 /* SliderModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628D31D42B29CCB60067CA73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628D31DD2B29CCB60067CA73 /* midwaymathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628D31DE2B29CCB60067CA73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628D31E72B29CCB60067CA73 /* midwaymathUITests.swift in Sources */,
+				628D31E92B29CCB60067CA73 /* midwaymathUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		628D31DA2B29CCB60067CA73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 628D31C72B29CCB40067CA73 /* midwaymath */;
+			targetProxy = 628D31D92B29CCB60067CA73 /* PBXContainerItemProxy */;
+		};
+		628D31E42B29CCB60067CA73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 628D31C72B29CCB40067CA73 /* midwaymath */;
+			targetProxy = 628D31E32B29CCB60067CA73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		628D31EA2B29CCB60067CA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		628D31EB2B29CCB60067CA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		628D31ED2B29CCB60067CA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"midwaymath/Preview Content\"";
+				DEVELOPMENT_TEAM = 89SD583VUC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chehab.midwaymath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		628D31EE2B29CCB60067CA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"midwaymath/Preview Content\"";
+				DEVELOPMENT_TEAM = 89SD583VUC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chehab.midwaymath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		628D31F02B29CCB60067CA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89SD583VUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chehab.midwaymathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/midwaymath.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/midwaymath";
+			};
+			name = Debug;
+		};
+		628D31F12B29CCB60067CA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89SD583VUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chehab.midwaymathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/midwaymath.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/midwaymath";
+			};
+			name = Release;
+		};
+		628D31F32B29CCB60067CA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89SD583VUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chehab.midwaymathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = midwaymath;
+			};
+			name = Debug;
+		};
+		628D31F42B29CCB60067CA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89SD583VUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chehab.midwaymathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = midwaymath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		628D31C32B29CCB40067CA73 /* Build configuration list for PBXProject "midwaymath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628D31EA2B29CCB60067CA73 /* Debug */,
+				628D31EB2B29CCB60067CA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		628D31EC2B29CCB60067CA73 /* Build configuration list for PBXNativeTarget "midwaymath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628D31ED2B29CCB60067CA73 /* Debug */,
+				628D31EE2B29CCB60067CA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		628D31EF2B29CCB60067CA73 /* Build configuration list for PBXNativeTarget "midwaymathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628D31F02B29CCB60067CA73 /* Debug */,
+				628D31F12B29CCB60067CA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		628D31F22B29CCB60067CA73 /* Build configuration list for PBXNativeTarget "midwaymathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628D31F32B29CCB60067CA73 /* Debug */,
+				628D31F42B29CCB60067CA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		628D31FA2B2A188D0067CA73 /* XCRemoteSwiftPackageReference "SlidingRuler" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Pyroh/SlidingRuler";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		628D31FB2B2A188E0067CA73 /* SlidingRuler */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 628D31FA2B2A188D0067CA73 /* XCRemoteSwiftPackageReference "SlidingRuler" */;
+			productName = SlidingRuler;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 628D31C02B29CCB40067CA73 /* Project object */;
+}
